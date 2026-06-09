@@ -19,19 +19,15 @@ Além de responder perguntas, a ARIA tem comportamento proativo: sempre que um p
 No notebook Python, a mesma base de conhecimento da ARIA está disponível como um módulo interativo de terminal, permitindo conversar com ela diretamente no Google Colab — útil para demonstrações acadêmicas, estudos e apresentações.
 A escolha por uma IA local e baseada em regras, em vez de um modelo de linguagem externo, foi deliberada: garante que o sistema funcione completamente offline, sem latência de rede, sem custo de API e com respostas sempre precisas e controladas — adequado para um contexto de missão onde confiabilidade é essencial.
 
-Tecnologias utilizadas
-CamadaTecnologiaHardwareArduino Uno, sensores MQ-2, IR, LDR, NTC, buzzerComunicaçãoWeb Serial API (Chrome / Edge)InterfaceHTML5, CSS3, JavaScript puro, Chart.jsIA conversacionalARIA — base de dados local + motor NLP com regexNotebookPython 3, Google Colab, IPython
+Como executar Com interface web e Arduino real
 
-Como Executar
-Abra o notebook no Google Colab:
-Acessar Notebook
-Execute as células em ordem:
+Grave o arquivo missao_evortex.ino no Arduino Uno via Arduino IDE Abra o arquivo missao_evortex.html no Google Chrome ou Microsoft Edge Selecione o modo Real no topo da interface Clique em ⬡ Conectar Arduino e escolha a porta COM Os dados dos sensores aparecerão nos cartões em tempo real
 
-Célula 1 — configura o ambiente e exibe os sensores monitorados
-Célula 2 — renderiza a interface EVORTEX dentro do Colab
-Célula 3 — inicia o chatbot ARIA interativo no terminal
-Célula 4 — gera e baixa o arquivo missao_evortex.html
-Célula 5 — referência técnica completa do projeto
+Sem Arduino — modo de demonstração
+
+Abra missao_evortex.html no Chrome ou Edge Selecione o modo Simulação Use os botões de simulação manual ou clique em ▶ Auto Todos os alertas, popups e o chatbot ARIA funcionam normalmente
+
+Sistema Python no terminal bashpython3 mission_control_ai.py Para usar o chatbot ARIA com IA: bashexport ANTHROPIC_API_KEY="sua-chave-aqui" python3 mission_control_ai.py Google Colab Abra o notebook no Google Colab: https://colab.research.google.com/drive/1scF9jG0XkSZzlaHrsKrzoH7flY186i6a Execute as células em ordem. A interface e o chatbot ARIA estarão disponíveis diretamente no ambiente do Colab.
 
 1 ## Vídeo de Demonstração
-2 
+https://youtu.be/-J4D0HJUrEg?si=kgBXOJa-it9eB_DT
