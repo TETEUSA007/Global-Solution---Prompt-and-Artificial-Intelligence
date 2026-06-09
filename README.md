@@ -19,6 +19,12 @@ Além de responder perguntas, a ARIA tem comportamento proativo: sempre que um p
 No notebook Python, a mesma base de conhecimento da ARIA está disponível como um módulo interativo de terminal, permitindo conversar com ela diretamente no Google Colab — útil para demonstrações acadêmicas, estudos e apresentações.
 A escolha por uma IA local e baseada em regras, em vez de um modelo de linguagem externo, foi deliberada: garante que o sistema funcione completamente offline, sem latência de rede, sem custo de API e com respostas sempre precisas e controladas — adequado para um contexto de missão onde confiabilidade é essencial.
 
+
+prints reais do sistema rodando:
+
+
+
+
 Como executar Com interface web e Arduino real
 
 Grave o arquivo missao_evortex.ino no Arduino Uno via Arduino IDE Abra o arquivo missao_evortex.html no Google Chrome ou Microsoft Edge Selecione o modo Real no topo da interface Clique em ⬡ Conectar Arduino e escolha a porta COM Os dados dos sensores aparecerão nos cartões em tempo real
