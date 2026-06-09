@@ -23,7 +23,7 @@ A escolha por uma IA local e baseada em regras, em vez de um modelo de linguagem
 prints reais do sistema rodando:
 
 ![image alt](https://github.com/TETEUSA007/Global-Solution---Prompt-and-Artificial-Intelligence/blob/main/alerta-critico.png)
-
+![image alt](https://github.com/TETEUSA007/Global-Solution---Prompt-and-Artificial-Intelligence/blob/main/dados-missao.png)
 
 Como executar Com interface web e Arduino real
 
